@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Боулинг XL — клуб на Ярославском шоссе</title>
+<meta name="description" content="Боулинг XL — 12 дорожек Brunswick, лазертаг Q-ZAR, бильярд и Family Café на 1200 м². Бронирование дорожек онлайн.">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Боулинг XL — на главную">
+      <span class="logo__mark">XL</span>
+      <span class="logo__word">Боулинг</span>
+    </a>
+
+    <nav class="nav" aria-label="Главное меню">
+      <a href="entertainment/bowling/index.html" data-nav="bowling">Боулинг</a>
+      <a href="entertainment/q-zar/index.html" data-nav="qzar">Q-ZAR</a>
+      <a href="entertainment/billiards/index.html" data-nav="billiards">Бильярд</a>
+      <a href="entertainment/korporativ/index.html" data-nav="parties">Праздники</a>
+      <a href="restaurant/index.html" data-nav="cafe">Family café</a>
+      <a href="prices/index.html" data-nav="prices">Цены</a>
+      <a href="gallery/index.html" data-nav="gallery">Галерея</a>
+    </nav>
+
+    <div class="header__right">
+      <a class="header__phone" href="tel:+79296340331">+7 929 634-03-31</a>
+      <button class="btn btn--primary" data-open="book">Забронировать</button>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mnav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mnav">
+  <a href="entertainment/bowling/index.html">Боулинг</a>
+  <a href="entertainment/q-zar/index.html">Q-ZAR</a>
+  <a href="entertainment/billiards/index.html">Бильярд</a>
+  <a href="entertainment/korporativ/index.html">Праздники и корпоративы</a>
+  <a href="entertainment/birthday/index.html">День рождения</a>
+  <a href="entertainment/children/index.html">Детям</a>
+  <a href="restaurant/index.html">Family café</a>
+  <a href="prices/index.html">Цены</a>
+  <a href="gallery/index.html">Галерея</a>
+  <a href="news-list/index.html">Акции и новости</a>
+  <a href="contacts/index.html">Контакты</a>
+  <a class="m-phone" href="tel:+79296340331">+7 929 634-03-31</a>
+  <button class="btn btn--primary btn--block" data-open="book">Забронировать дорожку</button>
+</div>
+
+
+<main>
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__veil"></div>
+    <div class="hero__accent"></div>
+    <div class="hero__grain"></div>
+
+    <div class="wrap">
+      <div>
+        <div class="eyebrow" data-cms="index.html:eyebrow:0">Москва · Ярославское шоссе · XL Outlet, 3 этаж</div>
+        <h1 class="dsp" data-cms="index.html:h1:0">Вечер,<br><span class="out">который</span><br><span style="color:var(--lime)">запомнится.</span></h1>
+        <p class="lead" data-cms="index.html:p:0">12 дорожек Brunswick, лазертаг Q-ZAR, бильярд и кухня Family Café — 1200 м² хорошего вечера.
+        Дорожки разбирают заранее: бронируйте онлайн и приходите играть.</p>
+        <div class="hero__cta">
+          <button class="btn btn--primary" data-open="book">Забронировать дорожку
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <a class="btn btn--ghost" href="prices/index.html">Цены и тарифы</a>
+        </div>
+      </div>
+
+      <aside class="today">
+        <div class="today__pulse"><i></i>Открыто</div>
+        <h4>Сегодня</h4>
+        <div class="today__big" data-cms="index.html:todaybig:0">12:00–23:30</div>
+        <div class="today__lanes"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="today__cap" data-cms="index.html:todaycap:0">6 из 12 дорожек свободно</div>
+        <hr>
+        <div class="today__row"><span>Дорожка, час</span><b>от 1 800 ₽</b></div>
+        <div class="today__row" style="margin-top:9px"><span>Q-ZAR, 15 мин</span><b>от 250 ₽</b></div>
+        <button class="btn btn--primary btn--block" data-open="book">Выбрать время</button>
+      </aside>
+    </div>
+
+    <div class="lane-strip"><div>
+      <span class="lit">01</span><span class="lit">02</span><span class="lit">03</span><span class="lit">04</span><span class="lit">05</span><span class="lit">06</span>
+      <span>07</span><span>08</span><span>09</span><span>10</span><span>11</span><span>12</span>
+    </div></div>
+  </section>
+
+  <div class="bookbar">
+    <div class="wrap">
+      <div class="bookbar__title"><b>Быстрая проверка</b>Свободные дорожки</div>
+      <div class="bookbar__f"><span>Дата</span><b>14 декабря, чт</b></div>
+      <div class="bookbar__f"><span>Время</span><b>19:00</b></div>
+      <div class="bookbar__f"><span>Гостей</span><b>4 человека</b></div>
+      <div class="bookbar__f"><span>Дорожек</span><b>1 дорожка</b></div>
+      <button class="btn btn--primary" data-open="book">Показать варианты
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="ticker"><div class="ticker__track">
+    <span>Страйк</span><span>12 дорожек</span><span>Q-ZAR</span><span>Бильярд</span><span>Family Café</span><span>Дни рождения</span><span>Корпоративы</span>
+    <span>Страйк</span><span>12 дорожек</span><span>Q-ZAR</span><span>Бильярд</span><span>Family Café</span><span>Дни рождения</span><span>Корпоративы</span>
+  </div></div>
+
+  <section class="section" id="zones" style="padding-bottom:44px">
+    <div class="wrap">
+      <div class="shead">
+        <h2 data-cms="index.html:h2:0">Четыре зоны —<br><em>один вечер</em></h2>
+        <p data-cms="index.html:p:1">Переходите из зоны в зону без выхода на улицу: дорожки, лазерный пейнтбол, бильярд и кухня на одном этаже.</p>
+      </div>
+      <div class="bento">
+        <a class="z z--big" href="entertainment/bowling/index.html">
+          <div class="z__ph" style="background-image:url(assets/img/zone-bowling.jpg)"></div>
+          <span class="z__tag">12 дорожек Brunswick</span>
+          <div class="z__in"><h3 data-cms="index.html:h3:0">Боулинг</h3><p data-cms="index.html:p:2">Система «Вектор» считает очки за вас — турнир между 1-й и 12-й дорожкой устраивается в пару кликов. Новичкам помогают инструкторы.</p><div class="z__price" data-cms="index.html:zprice:0">от 1 800 ₽ / час</div></div>
+        </a>
+        <a class="z" href="entertainment/q-zar/index.html">
+          <div class="z__ph" style="background-image:url(assets/img/zone-qzar.jpg)"></div>
+          <span class="z__tag">20 жилетов</span>
+          <div class="z__in"><h3 data-cms="index.html:h3:1">Q-ZAR</h3><p data-cms="index.html:p:3">Лазерный пейнтбол в тёмном лабиринте.</p><div class="z__price" data-cms="index.html:zprice:1">от 250 ₽ / игра</div></div>
+        </a>
+        <a class="z" href="entertainment/billiards/index.html">
+          <div class="z__ph" style="background-image:url(assets/img/zone-billiard.jpg)"></div>
+          <span class="z__tag">4 стола</span>
+          <div class="z__in"><h3 data-cms="index.html:h3:2">Бильярд</h3><p data-cms="index.html:p:4">Два стола русского бильярда и два пула.</p><div class="z__price" data-cms="index.html:zprice:2">от 500 ₽ / час</div></div>
+        </a>
+        <a class="z z--wide" href="restaurant/index.html">
+          <div class="z__ph" style="background-image:url(assets/img/zone-cafe.jpg)"></div>
+          <span class="z__tag">Кухня и бар</span>
+          <div class="z__in"><h3 data-cms="index.html:h3:3">Family Café</h3><p data-cms="index.html:p:5">Пицца на дровах, бургеры и детское меню — приносят прямо к дорожке.</p><div class="z__price" data-cms="index.html:zprice:3">средний чек 900 ₽</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="fgrid">
+        <div class="fcard">
+          <div class="fcard__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8M12 17v4"/><path d="M7 4h10v4.5a5 5 0 0 1-10 0V4Z"/><path d="M7 5.5H4v2a3 3 0 0 0 3 3M17 5.5h3v2a3 3 0 0 1-3 3"/></svg></div>
+          <h3 data-cms="index.html:h3:4">Турнир между дорожками</h3>
+          <p data-cms="index.html:p:6">Система «Вектор» сводит счёт, объявляет победителя и показывает результаты на экране.</p>
+        </div>
+        <div class="fcard">
+          <div class="fcard__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9"/></svg></div>
+          <h3 data-cms="index.html:h3:5">Инструкторы для новичков</h3>
+          <p data-cms="index.html:p:7">Помогут выбрать шар, объяснят разбег и подсчёт очков — играть можно с первого раза.</p>
+        </div>
+        <div class="fcard">
+          <div class="fcard__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17h18v-3.2l-4.2-1-2.8-3.8H8l-1 3-4 2V17Z"/><path d="M3 20h18"/></svg></div>
+          <h3 data-cms="index.html:h3:6">Обувь 33–50 размер</h3>
+          <p data-cms="index.html:p:8">Прокат ботинок любого размера — от детских до больших взрослых. Входит в стоимость дорожки.</p>
+        </div>
+        <div class="fcard">
+          <div class="fcard__ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M10 17V7h3.2a3 3 0 0 1 0 6H10"/></svg></div>
+          <h3 data-cms="index.html:h3:7">Бесплатная парковка</h3>
+          <p data-cms="index.html:p:9">Парковка XL Outlet — заезд с Ярославского шоссе, до входа в клуб пять минут пешком.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--price" id="prices">
+    <div class="wrap">
+      <div class="shead">
+        <h2 data-cms="index.html:h2:1">Сколько стоит<br>вечер</h2>
+        <p data-cms="index.html:p:10">Аренда дорожки — за час, на компанию до 6 человек. Цены совпадают с разделом «Цены».</p>
+      </div>
+      <div class="pcards">
+        <div class="pcard">
+          <div class="pcard__day" data-cms="index.html:pcardday:0">Пн–Чт</div><div class="pcard__time" data-cms="index.html:pcardtime:0">12:00 — 23:30</div>
+          <div class="pcard__val" data-cms="index.html:pcardval:0">1 800 <small>₽ / час</small></div>
+        </div>
+        <div class="pcard pcard--hot">
+          <div class="pcard__hot">Хит</div>
+          <div class="pcard__day" data-cms="index.html:pcardday:1">Пт + предпраздники</div><div class="pcard__time" data-cms="index.html:pcardtime:1">12:00 — 01:30</div>
+          <div class="pcard__val" data-cms="index.html:pcardval:1">2 200 <small>₽ / час</small></div>
+        </div>
+        <div class="pcard">
+          <div class="pcard__day" data-cms="index.html:pcardday:2">Сб + праздники</div><div class="pcard__time" data-cms="index.html:pcardtime:2">10:00 — 01:30</div>
+          <div class="pcard__val" data-cms="index.html:pcardval:2">2 400 <small>₽ / час</small></div>
+        </div>
+        <div class="pcard">
+          <div class="pcard__day" data-cms="index.html:pcardday:3">Вс</div><div class="pcard__time" data-cms="index.html:pcardtime:3">10:00 — 23:30</div>
+          <div class="pcard__val" data-cms="index.html:pcardval:3">2 200 <small>₽ / час</small></div>
+        </div>
+      </div>
+      <div class="extras">
+        <div class="extra"><div><b>Бильярд</b><em>американский / русский</em></div><span>500–700 ₽</span></div>
+        <div class="extra"><div><b>Q-ZAR</b><em>15 минут, один игрок</em></div><span>250–300 ₽</span></div>
+        <div class="extra"><div><b>Аренда зала Q-ZAR</b><em>20 жилетов, 30 минут</em></div><span>3 500 ₽</span></div>
+      </div>
+      <div class="note">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#D4FF3F" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+        Постоянным гостям — клубные вечера и турниры с призами. <a href="prices/index.html" style="color:var(--lime)">Весь прайс</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="banner">
+        <div class="banner__ph" style="background-image:url(assets/img/party-family.jpg)"></div>
+        <div class="stamp">Strike<br>party<br>XL</div>
+        <div class="banner__in">
+          <div class="eyebrow" style="color:var(--pink)" data-cms="index.html:eyebrow:1">Праздники и компании</div>
+          <h2 data-cms="index.html:h2:2">День рождения,<br>после которого<br>просят «ещё раз»</h2>
+          <ul>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4FF3F" stroke-width="2.6"><path d="M4 12l5 5L20 6"/></svg>Программы для детей и взрослых компаний</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4FF3F" stroke-width="2.6"><path d="M4 12l5 5L20 6"/></svg>Банкетный зал на 150 мест, караоке и меню Family Café</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#D4FF3F" stroke-width="2.6"><path d="M4 12l5 5L20 6"/></svg>Турниры для отделов — с таблицей результатов на экране</li>
+          </ul>
+          <a class="btn btn--primary" href="entertainment/korporativ/index.html">Рассчитать праздник</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="shead">
+        <h2 data-cms="index.html:h2:3">Акции <em>и новости</em></h2>
+        <p data-cms="index.html:p:11">Специальные предложения клуба: сезонные тарифы, новинки меню и подарки.</p>
+      </div>
+      <div class="news">
+        <a class="newscard" href="news-list/index.html">
+          <div class="newscard__ph" style="background-image:url(assets/img/hall-neon.jpg)"></div>
+          <div class="newscard__body">
+            <time data-cms="index.html:time:0">14 декабря — 10 января</time>
+            <h3 data-cms="index.html:h3:8">Единый новогодний тариф</h3>
+            <p data-cms="index.html:p:12">Один тариф на все дорожки в праздничные дни — приходите всей компанией.</p>
+            <span class="more" data-cms="index.html:more:0">Подробнее</span>
+          </div>
+        </a>
+        <a class="newscard" href="news-list/index.html">
+          <div class="newscard__ph" style="background-image:url(assets/img/food-pizza.jpg)"></div>
+          <div class="newscard__body">
+            <time data-cms="index.html:time:1">Новинка меню</time>
+            <h3 data-cms="index.html:h3:9">Пицца на дровах в Family Café</h3>
+            <p data-cms="index.html:p:13">Настоящая итальянская пицца: заказывайте к дорожке или в зал кафе.</p>
+            <span class="more" data-cms="index.html:more:1">Подробнее</span>
+          </div>
+        </a>
+        <a class="newscard" href="news-list/index.html">
+          <div class="newscard__ph" style="background-image:url(assets/img/banquet.jpg)"></div>
+          <div class="newscard__body">
+            <time data-cms="index.html:time:2">Круглый год</time>
+            <h3 data-cms="index.html:h3:10">Подарочные сертификаты</h3>
+            <p data-cms="index.html:p:14">Подарите вечер в клубе: сертификат на дорожку, бильярд или праздник.</p>
+            <span class="more" data-cms="index.html:more:2">Подробнее</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap" style="margin-bottom:34px">
+      <div class="shead" style="margin-bottom:0">
+        <h2 style="font-size:clamp(26px,2.6vw,38px)" data-cms="index.html:h2:4">Как это выглядит</h2>
+        <p data-cms="index.html:p:15">@xl_bowling — вечера гостей, без стоковых кеглей.</p>
+      </div>
+    </div>
+    <div class="marquee-gal">
+      <div class="marquee-gal__track">
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/group-team.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/girl-ball.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/food-nuggets.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/banquet.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/billiard-play.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/hall-neon.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/group-team.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/girl-ball.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/food-nuggets.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/banquet.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/billiard-play.jpg)"></a>
+        <a class="marquee-gal__ph" href="gallery/index.html" style="background-image:url(assets/img/hall-neon.jpg)"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="shead">
+        <h2 data-cms="index.html:h2:5">Как нас найти</h2>
+        <p data-cms="index.html:p:16">1 км от МКАД по Ярославскому шоссе, 3 этаж XL Outlet. Парковка бесплатная.</p>
+      </div>
+      <div class="map">
+  <div class="map__canvas">
+    <svg class="map__svg" viewBox="0 0 760 380" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <defs>
+        <radialGradient id="mg" cx="40%" cy="50%" r="65%">
+          <stop offset="0%" stop-color="#161623"/>
+          <stop offset="100%" stop-color="#09090F"/>
+        </radialGradient>
+      </defs>
+      <rect width="760" height="380" fill="url(#mg)"/>
+      <g stroke="#ffffff" stroke-opacity=".05">
+        <path d="M0 70H760M0 140H760M0 210H760M0 280H760M0 350H760"/>
+        <path d="M70 0V380M150 0V380M230 0V380M310 0V380M390 0V380M470 0V380M550 0V380M630 0V380M710 0V380"/>
+      </g>
+      <g fill="none" stroke="#ffffff" stroke-opacity=".06">
+        <circle cx="300" cy="190" r="66"/>
+        <circle cx="300" cy="190" r="128"/>
+        <circle cx="300" cy="190" r="196"/>
+        <circle cx="300" cy="190" r="262"/>
+      </g>
+      <path d="M300 190 760 -60" stroke="#33334A" stroke-width="9"/>
+      <path d="M300 190 -60 380" stroke="#2A2A38" stroke-width="14"/>
+      <path d="M300 190 760 430" stroke="#2A2A38" stroke-width="11"/>
+      <path d="M300 190 40 -60" stroke="#23232F" stroke-width="7"/>
+      <path d="M300 190 600 380" stroke="#23232F" stroke-width="7"/>
+      <path d="M300 190 760 -60" stroke="#D4FF3F" stroke-opacity=".55" stroke-width="2" stroke-dasharray="9 9"/>
+      <circle cx="300" cy="190" r="34" fill="#D4FF3F" fill-opacity=".08"/>
+      <circle cx="300" cy="190" r="18" fill="#D4FF3F" fill-opacity=".16"/>
+      <circle cx="300" cy="190" r="7" fill="#D4FF3F"/>
+      <text x="322" y="182" fill="#F5F5F7" font-family="Unbounded, sans-serif" font-size="14" font-weight="700">XL Outlet</text>
+      <text x="322" y="200" fill="#8A8A9A" font-family="Manrope, sans-serif" font-size="9" letter-spacing="1.6">3 ЭТАЖ · 1 КМ ОТ МКАД</text>
+      <text x="120" y="330" fill="#5C5C6E" font-family="Manrope, sans-serif" font-size="10" letter-spacing="2">МКАД</text>
+      <text x="470" y="86" fill="#6A6A7A" font-family="Manrope, sans-serif" font-size="10" letter-spacing="2">ЯРОСЛАВСКОЕ ШОССЕ</text>
+      <text x="640" y="330" fill="#3E3E4E" font-family="Manrope, sans-serif" font-size="10" letter-spacing="2">МОСКВА</text>
+    </svg>
+  </div>
+  <div class="map__card">
+    <div><b>XL Outlet, 3 этаж</b><span>Москва, Ярославское шоссе, 1 км от МКАД</span></div>
+    <div><b>Пн–Чт 12:00–23:30</b><span>Пт–Сб до 01:30 · Вс до 23:30</span></div>
+    <div><b>+7 929 634-03-31</b><span>boulinghl@yandex.ru</span></div>
+    <a class="btn btn--primary btn--sm" href="contacts/index.html">Как добраться</a>
+  </div>
+</div>
+
+    </div>
+  </section>
+</main>
+
+﻿<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="index.html" style="margin-bottom:18px">
+          <span class="logo__mark">XL</span>
+          <span class="logo__word">Боулинг</span>
+        </a>
+        <p data-cms="index.html:p:17">Боулинг-клуб на 1200 м²: 12 дорожек Brunswick, Q-ZAR, бильярд и Family Café.<br>Ярославское шоссе, 1 км от МКАД.</p>
+        <div class="socials">
+          <a href="https://vk.com/xl_bowling" aria-label="ВКонтакте">VK</a>
+          <a href="https://t.me/xl_bowling" aria-label="Telegram">TG</a>
+          <a href="https://instagram.com/bowlingxl" aria-label="Instagram">IG</a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Развлечения</h5>
+        <a href="entertainment/bowling/index.html">Боулинг</a><br>
+        <a href="entertainment/q-zar/index.html">Q-ZAR</a><br>
+        <a href="entertainment/billiards/index.html">Бильярд</a><br>
+        <a href="entertainment/korporativ/index.html">Корпоративы</a><br>
+        <a href="entertainment/birthday/index.html">Дни рождения</a>
+      </div>
+
+      <div>
+        <h5>Гостям</h5>
+        <a href="prices/index.html">Цены</a><br>
+        <a href="news-list/index.html">Акции и новости</a><br>
+        <a href="gallery/index.html">Галерея</a><br>
+        <a href="restaurant/index.html">Family café</a><br>
+        <a href="contacts/index.html">Контакты</a>
+      </div>
+
+      <div>
+        <h5>Часы работы</h5>
+        <p data-cms="index.html:p:18">Пн–Чт 12:00–23:30<br>Пт 12:00–01:30<br>Сб 10:00–01:30<br>Вс 10:00–23:30</p>
+        <h5 style="margin-top:22px">Контакты</h5>
+        <a class="footer__tel" href="tel:+79296340331">+7 929 634-03-31</a>
+        <p style="margin-top:6px" data-cms="index.html:p:19"><a href="mailto:boulinghl@yandex.ru">boulinghl@yandex.ru</a><br>
+        XL Outlet, 3 этаж · парковка бесплатно</p>
+      </div>
+    </div>
+
+    <div class="footer__word">BOWLING XL</div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Боулинг XL</span>
+      <span>Политика конфиденциальности · Политика cookies</span>
+    </div>
+  </div>
+</footer>
+
+<dialog class="modal" id="book" aria-labelledby="book-title">
+  <div class="modal__in">
+    <button class="modal__close" aria-label="Закрыть">×</button>
+    <div class="eyebrow" data-cms="index.html:eyebrow:2">Бронирование</div>
+    <h3 id="book-title" data-cms="index.html:h3:11">Забронировать дорожку</h3>
+    <p data-cms="index.html:p:20">Оставьте заявку — перезвоним в течение 15 минут, подтвердим время и расскажем про свободные дорожки.</p>
+    <form data-demo>
+      <div class="field"><label for="b-name">Имя</label><input id="b-name" name="name" placeholder="Как к вам обращаться" required></div>
+      <div class="field"><label for="b-phone">Телефон</label><input id="b-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required></div>
+      <div class="field"><label for="b-date">Дата</label><input id="b-date" name="date" type="date"></div>
+      <div class="field"><label for="b-time">Время</label><input id="b-time" name="time" type="time" value="19:00"></div>
+      <div class="field"><label for="b-guests">Гостей</label>
+        <select id="b-guests" name="guests">
+          <option>2–4 человека</option><option selected>5–6 человек</option><option>7–12 человек</option><option>Больше 12</option>
+        </select>
+      </div>
+      <div class="field"><label for="b-lanes">Дорожек</label>
+        <select id="b-lanes" name="lanes"><option selected>1</option><option>2</option><option>3</option><option>4 и больше</option></select>
+      </div>
+      <button class="btn btn--primary btn--block" type="submit">Отправить заявку</button>
+      <small style="color:var(--muted2);font-size:10.5px;line-height:1.5">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.</small>
+    </form>
+    <div class="modal__success" hidden>
+      <div style="font-size:40px;line-height:1;margin-bottom:10px">🎳</div>
+      <h3 data-cms="index.html:h3:12">Заявка отправлена</h3>
+      <p data-cms="index.html:p:21">Менеджер перезвонит в течение 15 минут и подтвердит бронь. Если планы изменятся — просто позвоните: +7 929 634-03-31.</p>
+      <button class="btn btn--primary btn--block" style="margin-top:22px" onclick="this.closest('dialog').close()">Хорошо</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog class="modal" id="lightbox" aria-label="Просмотр фото">
+  <div class="modal__in" style="padding:12px">
+    <button class="modal__close" aria-label="Закрыть">×</button>
+    <img alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" style="width:100%;height:auto;border-radius:14px;display:block">
+  </div>
+</dialog>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
